@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <!--head 안에 script를 넣으면 브라우저가 검사함
+     (parsinghtml, blocked(fetching, executing), parsinghtml) but 로딩시간이 많이 걸림-->
+    <!-- <script>
+      src = 'main.js';
+    </script>-->
+    <!-- <script asyn src="main.js"></script> -->
+    <!-- asyn pardinghtml과 동시에 fetching, executing이 시작됨.
+    body안에 있는 것보다 로딩이 빠름, 근데 조작 시점에 시작해버림 멈출수도 있고-->
+    <script defer src="dreamjs2.js"></script>
+    <!--defer 이 가장 좋음, 미리 필요한걸 다운(fetching) 후 구현(executing)-->
+  </head>
+
+  <body>
+    <!--<script src=".js"></script>-->
+    <!--body 안에 script를 넣으면 브라우저가 검사함
+     (parsinghtml, fetching, executing) 로딩시간이 짧아짐
+     단, 다시 돌아가야해서 동작요소는 좀 걸림-->
+  </body>
+</html>
+
+<!--js에서 "use strict";를 선언하면, 이상한 정의의 에러를 발견해줌-->
