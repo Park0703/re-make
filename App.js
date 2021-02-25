@@ -1,3 +1,9 @@
+import {
+   BrowserRouter as router,
+   Switch,
+   Route,
+   Link
+} from "react-router-dom";
 import React, {Component} from 'react';
 import Head from './Components/head.js';
 import N3 from './Components/N3.js';
@@ -40,9 +46,6 @@ constructor(props) {
          <div id = "frontline">
 
             <N1
-               function () for (let i = 0; )
-               _id = {this.state.contents[i].id}
-
                > </N1>
 
             <N2> </N2>
