@@ -71,12 +71,9 @@ print(students)
 
 '''
 
-index = 1
-while index <= 50 : 
-    print("{0}번째 손님 (소요시간 : {1}분)".format(index, students))
-    index += 1
-    if index > 50 :
-        break
+
+
+
 
 
 

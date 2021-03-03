@@ -128,10 +128,10 @@ print(menu, type(menu)) #{'주스', '커피', '우유'} <class 'set'>
 menu = list(menu)
 print(menu, type(menu)) #['주스', '커피', '우유'] <class 'list'>
 
-menu=tuple(menu)
+menu = tuple(menu)
 print(menu, type(menu)) #('주스', '커피', '우유') <class 'tuple'>
 
-menu=set(menu)
+menu = set(menu)
 print(menu, type(menu)) #{'커피', '우유', '주스'} <class 'set'>
 
 '''
