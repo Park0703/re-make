@@ -94,7 +94,7 @@ print(m)
 # 전체 긁어오기 실습
 import requests
 url = 'https://naver.com/'
-headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36'}
+headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'}
 res = requests.get(url, headers = headers) # 접속하는 대상이 컴퓨터인 경우 방어하는 경우도 있음
 res.raise_for_status() # 정상이면 계속 진행
 with open('nadocoding.html', 'w', encoding='utf8') as f:
