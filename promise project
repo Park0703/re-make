@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-10T00:23:59.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="maS7ykAALLuI9gQ1moHm" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-10T03:00:30.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="srOUdOBonkivgCSFEkhY" version="15.5.0" type="github">
   <diagram id="Xkew_pkOUpFCAQA28Qru" name="Page-1">
-    <mxGraphModel dx="3751" dy="1347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3401" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,13 +14,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-4" value="API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1780" y="1510" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1740" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-6" target="OH_6_dIpCLLqbTa7ZHZ7-103" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-6" value="서비스 웹&lt;br&gt;반응형&amp;nbsp;프론트&lt;br&gt;React" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1347.5" y="1510" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1307.5" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-10" target="OH_6_dIpCLLqbTa7ZHZ7-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -98,13 +98,13 @@
           <mxGeometry x="-640" y="320" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-35" value="유저" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1750" y="1660" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1710" y="1580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-36" value="웹 벡엔드 서버&lt;br&gt;Flask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1497.5" y="1510" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1457.5" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-37" value="DB 서버&lt;br&gt;noSQL&lt;br&gt;유동성" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1930" y="1510" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1890" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-38" value="1. 보증금 플랫폼&lt;br&gt;보증금의 보유&lt;br&gt;보증금 처리 프로세스을 명확하게 해야&lt;br&gt;- 기존 업체는 어떻게 처리했는지&lt;br&gt;( 센터에서 본사로" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-189" y="60" width="260" height="100" as="geometry" />
@@ -112,11 +112,11 @@
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-40" target="OH_6_dIpCLLqbTa7ZHZ7-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3dKPPxtdw8YJJsmX6jWW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-40" target="3dKPPxtdw8YJJsmX6jWW-26">
+        <mxCell id="3dKPPxtdw8YJJsmX6jWW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-40" target="3dKPPxtdw8YJJsmX6jWW-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-40" value="수거함&lt;br&gt;embedded" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1865" y="1410" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1825" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-41" value="2. 수거함의 통제&lt;br&gt;실물 컵의 이동&lt;br&gt;컵의 집계&lt;br&gt;사용자 정보&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-189" y="185" width="260" height="100" as="geometry" />
@@ -272,7 +272,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-95" value="ai 모델 Flask&lt;br&gt;mkl 파일&lt;br&gt;재학습 이미지 저장" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1700" y="1410" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1660" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-98" target="OH_6_dIpCLLqbTa7ZHZ7-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -280,26 +280,26 @@
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-98" target="OH_6_dIpCLLqbTa7ZHZ7-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3dKPPxtdw8YJJsmX6jWW-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-98" target="3dKPPxtdw8YJJsmX6jWW-29">
+        <mxCell id="3dKPPxtdw8YJJsmX6jWW-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-98" target="3dKPPxtdw8YJJsmX6jWW-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-98" value="APP&lt;br&gt;webapp&lt;br&gt;React" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1780" y="1595" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1740" y="1515" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-100" target="OH_6_dIpCLLqbTa7ZHZ7-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-100" value="AI 모델&lt;br&gt;Tensorflow,&lt;br&gt;pytorch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1535" y="1410" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1495" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-101" value="관리자 유저" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1170" y="1605" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1130" y="1525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OH_6_dIpCLLqbTa7ZHZ7-103" target="OH_6_dIpCLLqbTa7ZHZ7-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-103" value="관리자 웹&lt;br&gt;&amp;nbsp;&lt;br&gt;통계 대시보드&lt;br&gt;이력기록, 관리&lt;br&gt;행정처리기능" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1322.5" y="1580" width="120" height="110" as="geometry" />
+          <mxGeometry x="-1282.5" y="1500" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-104" value="API서버 =&amp;gt; 웹 백엔드&lt;br&gt;재질구분 데이터 =&amp;gt; 브랜드별&lt;br&gt;종이 페트&lt;br&gt;재질 분류데이터&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-460" y="60" width="260" height="100" as="geometry" />
@@ -329,7 +329,7 @@
           <mxGeometry x="-2080" y="240" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-113" value="&lt;b&gt;아키텍트&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1950" y="1360" width="270" height="40" as="geometry" />
+          <mxGeometry x="-1910" y="1280" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-114" value="User Experience" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1040" y="880" width="240" height="40" as="geometry" />
@@ -337,14 +337,53 @@
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-115" value="수거업체와의 협업" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-847" y="1340" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3dKPPxtdw8YJJsmX6jWW-1" value="속도보다는 분류 성능에 초점&lt;br&gt;two-step&lt;br&gt;precision&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3dKPPxtdw8YJJsmX6jWW-1" value="속도보다는 분류 성능에 초점&lt;br&gt;two-step&lt;br&gt;precision&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-880" y="460" width="420" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="3dKPPxtdw8YJJsmX6jWW-26" value="수거함 카메라 인식" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="-2040" y="1410" width="120" height="60" as="geometry" />
+        <mxCell id="3dKPPxtdw8YJJsmX6jWW-26" value="수거함 카메라 인식" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="-2000" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3dKPPxtdw8YJJsmX6jWW-29" value="수거함 카메라 인식" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="-1750" y="1730" width="120" height="60" as="geometry" />
+        <mxCell id="3dKPPxtdw8YJJsmX6jWW-29" value="수거함 카메라 인식" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="-1710" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-1" value="최초 모델&lt;br&gt;&lt;br&gt;데이터 수집&amp;nbsp;&lt;br&gt;전처리 =&amp;gt; 누끼&lt;br&gt;image argumentation&lt;br&gt;&lt;br&gt;모델링&lt;br&gt;layer 설계&lt;br&gt;plot_model, summary&lt;br&gt;&lt;br&gt;평가&lt;br&gt;accuracy, precision, recall, f1-score&lt;br&gt;history [acc, loss]&lt;br&gt;&lt;br&gt;모델 file 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2360" y="1720" width="210" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-2" value="자동화 =&amp;gt; 폰카메라 버전" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2100" y="1720" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-3" value="카메라 기능 실행" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2080" y="1780" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-4" value="유저 : 카메라 aiming" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1820" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-5" value="모델 detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2069" y="1940" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-6" value="이미지 데이터 서버 전송" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1900" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-7" value="예측값 반환, 데이터 전송" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2069" y="1980" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-8" value="이미지 데이터 temp 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2070" y="1860" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-9" value="아닌 경우" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1830" y="1980" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-10" value="다시 aiming 지시" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="2020" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-11" value="맞는 경우" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2040" y="2020" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-12" value="로딩화면 &amp;amp; 카메라 종료" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2030" y="2060" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-13" value="로딩화면 &amp;amp; 카메라 종료" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2030" y="2100" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
