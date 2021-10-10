@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-10T03:09:58.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="CFFJOatT9cL-Bojx0fyx" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-10T03:54:50.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="B2zqMMTZZCl5Wh3qTavg" version="15.5.0" type="github">
   <diagram id="Xkew_pkOUpFCAQA28Qru" name="Page-1">
-    <mxGraphModel dx="3578" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3783" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -346,32 +346,35 @@
         <mxCell id="3dKPPxtdw8YJJsmX6jWW-29" value="수거함 카메라 인식" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-1710" y="1650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="E46TMaIu0iLfGTiSTW5D-1" value="최초 모델&lt;br&gt;&lt;br&gt;데이터 수집&amp;nbsp;&lt;br&gt;전처리 =&amp;gt; 누끼&lt;br&gt;image argumentation&lt;br&gt;&lt;br&gt;모델링&lt;br&gt;layer 설계&lt;br&gt;plot_model, summary&lt;br&gt;&lt;br&gt;평가&lt;br&gt;accuracy, precision, recall, f1-score&lt;br&gt;history [acc, loss]&lt;br&gt;&lt;br&gt;모델 file 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-1" value="최초 모델&lt;br&gt;&lt;br&gt;데이터 수집&amp;nbsp;&lt;br&gt;전처리 =&amp;gt; 누끼&lt;br&gt;image argumentation&lt;br&gt;&lt;br&gt;모델링&lt;br&gt;layer 설계&lt;br&gt;plot_model, summary&lt;br&gt;이상치 처리&lt;br&gt;&lt;br&gt;평가&lt;br&gt;accuracy, precision, recall, f1-score&lt;br&gt;history [acc, loss]&lt;br&gt;&lt;br&gt;모델 file 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2355" y="1790" width="210" height="420" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-2" value="자동화 =&amp;gt; 폰카메라 버전" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2095" y="1790" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="E46TMaIu0iLfGTiSTW5D-3" value="카메라 기능 실행" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-3" value="1) 카메라 기능 실행" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2075" y="1850" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-4" value="유저 : 카메라 aiming" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2065" y="1890" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E46TMaIu0iLfGTiSTW5D-5" value="모델 detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2064" y="2010" width="170" height="30" as="geometry" />
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-5" value="2) 모델 detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2064" y="1930" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-6" target="E46TMaIu0iLfGTiSTW5D-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-6" value="이미지 데이터 서버 전송" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1832.5" y="2010" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-7" value="3) 예측값 반환, 데이터 전송" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2065" y="1970" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E46TMaIu0iLfGTiSTW5D-7" value="예측값 반환, 데이터 전송" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2064" y="2050" width="170" height="30" as="geometry" />
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-8" target="E46TMaIu0iLfGTiSTW5D-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-8" value="이미지 데이터 temp 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2065" y="1930" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1865" y="1970" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-9" value="아닌 경우" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1820" y="2090" width="170" height="30" as="geometry" />
@@ -389,52 +392,147 @@
           <mxGeometry x="-2025" y="2170" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-14" value="자동화 =&amp;gt; 수거함 인식 버전" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1590" y="1790" width="320" height="40" as="geometry" />
+          <mxGeometry x="-1174.12" y="1790" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-15" value="카메라 기능 활성화" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1570" y="1930" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1154.12" y="1930" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-17" value="아두이노 카메라 detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1559" y="1970" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1143.12" y="1970" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-19" target="E46TMaIu0iLfGTiSTW5D-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-19" value="예측값 temp 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1559" y="2010" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1143.12" y="2010" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-21" value="아닌 경우" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1315" y="2050" width="170" height="30" as="geometry" />
+          <mxGeometry x="-899.12" y="2050" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-22" value="수거함" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1305" y="2090" width="170" height="30" as="geometry" />
+          <mxGeometry x="-889.12" y="2090" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-23" value="맞는 경우" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1530" y="2050" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1114.12" y="2050" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-24" value="로딩화면 &amp;amp; 카메라 종료" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1520" y="2090" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1104.12" y="2090" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-25" value="값 처리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1520" y="2130" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1104.12" y="2130" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-26" value="수거함 수거" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1570" y="1850" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1154.12" y="1850" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-27" value="수거함 컵 고정" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1570" y="1890" width="170" height="30" as="geometry" />
+          <mxGeometry x="-1154.12" y="1890" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E46TMaIu0iLfGTiSTW5D-28" value="재학습데이터 처리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1820" y="1970" width="170" height="30" as="geometry" />
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-28" target="E46TMaIu0iLfGTiSTW5D-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-28" value="4-1) 재학습데이터 처리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1631.5" y="2010" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-30" target="E46TMaIu0iLfGTiSTW5D-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-30" target="E46TMaIu0iLfGTiSTW5D-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-30" target="E46TMaIu0iLfGTiSTW5D-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-30" value="재학습데이터 처리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1337.5" y="2010" width="170" height="30" as="geometry" />
+          <mxGeometry x="-921.62" y="2010" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E46TMaIu0iLfGTiSTW5D-32" value="데이터" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2095" y="2220" width="105" height="60" as="geometry" />
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-32" value="데이터 flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2095" y="2240" width="305" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="E46TMaIu0iLfGTiSTW5D-33" value="데이터" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2055" y="2350" width="105" height="60" as="geometry" />
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-42" target="E46TMaIu0iLfGTiSTW5D-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-38" target="E46TMaIu0iLfGTiSTW5D-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-38" target="E46TMaIu0iLfGTiSTW5D-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-38" value="API&lt;br&gt;4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2000" y="2390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-40" target="E46TMaIu0iLfGTiSTW5D-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-40" value="서비스 웹&lt;br&gt;반응형&amp;nbsp;프론트&lt;br&gt;React" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1567.5" y="2390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-41" value="유저" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1970" y="2540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-42" value="웹 벡엔드 서버&lt;br&gt;Flask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1717.5" y="2390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-43" value="DB 서버&lt;br&gt;noSQL&lt;br&gt;유동성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="2390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-46" target="E46TMaIu0iLfGTiSTW5D-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-46" target="E46TMaIu0iLfGTiSTW5D-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-46" value="수거함&lt;br&gt;embedded" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2085" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-48" target="E46TMaIu0iLfGTiSTW5D-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-48" value="ai 모델 Flask&lt;br&gt;mkl 파일&lt;br&gt;재학습 이미지 저장&lt;br&gt;4-1)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1920" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-52" target="E46TMaIu0iLfGTiSTW5D-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-52" target="E46TMaIu0iLfGTiSTW5D-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-52" target="E46TMaIu0iLfGTiSTW5D-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-52" value="APP&lt;br&gt;webapp&lt;br&gt;React&lt;br&gt;3) 5)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2000" y="2475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-54" target="E46TMaIu0iLfGTiSTW5D-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-54" value="AI 모델&lt;br&gt;Tensorflow,&lt;br&gt;pytorch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1755" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-55" value="관리자 유저" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="2485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-57" target="E46TMaIu0iLfGTiSTW5D-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-57" value="관리자 웹&lt;br&gt;&amp;nbsp;&lt;br&gt;통계 대시보드&lt;br&gt;이력기록, 관리&lt;br&gt;행정처리기능" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1542.5" y="2460" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-58" value="수거함 카메라 인식&lt;br&gt;1) 2)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-2260" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-59" value="수거함 카메라 인식&lt;br&gt;1) 2)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1970" y="2610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-60" value="이상치 탐지" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1592.5" y="2050" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="E46TMaIu0iLfGTiSTW5D-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-744.12" y="2025" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E46TMaIu0iLfGTiSTW5D-64" value="이상치 탐지" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-715.87" y="2010" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
