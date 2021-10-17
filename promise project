@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-16T13:51:19.136Z" agent="5.0 (Linux; Android 11; SM-A908N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Mobile Safari/537.36" etag="GnVoqsZX4_B3dBDgYd-v" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-17T15:32:57.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="ABm6tJzzgCMUWockwa11" version="15.5.0" type="github">
   <diagram id="Xkew_pkOUpFCAQA28Qru" name="Page-1">
-    <mxGraphModel dx="3306" dy="1396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3332" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,8 +517,17 @@
         <mxCell id="E46TMaIu0iLfGTiSTW5D-57" value="관리자 웹&lt;br&gt;&amp;nbsp;&lt;br&gt;통계 대시보드&lt;br&gt;이력기록, 관리&lt;br&gt;행정처리기능" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1542.5" y="2460" width="120" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-58" target="ia5Tlh3t-UGS_zeMbyWt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-58" target="ia5Tlh3t-UGS_zeMbyWt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-58" value="수거함 카메라 인식&lt;br&gt;1) 2)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-2260" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E46TMaIu0iLfGTiSTW5D-59" target="ia5Tlh3t-UGS_zeMbyWt-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-59" value="수거함 카메라 인식&lt;br&gt;1) 2)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-1970" y="2610" width="120" height="60" as="geometry" />
@@ -533,6 +542,101 @@
         </mxCell>
         <mxCell id="E46TMaIu0iLfGTiSTW5D-64" value="이상치 탐지" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-715.87" y="2010" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-2" value="&lt;br&gt;특정 위치 (컵바닥 인식)&lt;br&gt;특정동작 (1바퀴 회전)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-2532.51" y="2400" width="162.51" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-4" value="유저가 카메라를 켜고 카메라로 인식" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-2013.21" y="2720" width="233.21" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-5" value="아두이노 - 인식&lt;br&gt;평가/재학습용 이미지 전송" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#562BFF;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-2440" y="2460" width="162.51" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ia5Tlh3t-UGS_zeMbyWt-28" target="ia5Tlh3t-UGS_zeMbyWt-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-28" value="아두이노" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2525" y="2850" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ia5Tlh3t-UGS_zeMbyWt-30" target="ia5Tlh3t-UGS_zeMbyWt-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-30" value="방법" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2490" y="2890" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-32" value="수거함 내부 장착" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-2460" y="2920" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ia5Tlh3t-UGS_zeMbyWt-37" source="ia5Tlh3t-UGS_zeMbyWt-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2525" y="3050.0000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ia5Tlh3t-UGS_zeMbyWt-37" target="ia5Tlh3t-UGS_zeMbyWt-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-37" value="단점" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2490" y="3060" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-38" value="기기 내부 디자인을 통해&lt;br&gt;프로세스 통제 용이" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-2460" y="3090" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ia5Tlh3t-UGS_zeMbyWt-40" target="ia5Tlh3t-UGS_zeMbyWt-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-40" value="폰 카메라" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2169.9700000000003" y="2850" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ia5Tlh3t-UGS_zeMbyWt-42" target="ia5Tlh3t-UGS_zeMbyWt-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-42" value="방법" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2134.9700000000003" y="2890" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-43" value="버리기 전 유저의 폰 인식" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-2104.9700000000003" y="2920" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ia5Tlh3t-UGS_zeMbyWt-40" target="ia5Tlh3t-UGS_zeMbyWt-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2169.9700000000003" y="3050.0000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ia5Tlh3t-UGS_zeMbyWt-46" target="ia5Tlh3t-UGS_zeMbyWt-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-46" value="단점" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2134.9700000000003" y="3060" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-47" value="기기 내부 디자인을 통해&lt;br&gt;프로세스 통제 용이" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-2104.9700000000003" y="3090" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ia5Tlh3t-UGS_zeMbyWt-50" source="ia5Tlh3t-UGS_zeMbyWt-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2525" y="2960.0000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ia5Tlh3t-UGS_zeMbyWt-50" target="ia5Tlh3t-UGS_zeMbyWt-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-50" value="장점" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2490" y="2970" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-51" value="기기 내부 디자인을 통해&lt;br&gt;프로세스 통제 용이" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-2460" y="3000" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ia5Tlh3t-UGS_zeMbyWt-54" source="ia5Tlh3t-UGS_zeMbyWt-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2169.9700000000003" y="2970.0000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ia5Tlh3t-UGS_zeMbyWt-54" target="ia5Tlh3t-UGS_zeMbyWt-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-54" value="장점" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2134.9700000000003" y="2980" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ia5Tlh3t-UGS_zeMbyWt-55" value="기기 내부 디자인을 통해&lt;br&gt;프로세스 통제 용이" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-2104.9700000000003" y="3010" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
