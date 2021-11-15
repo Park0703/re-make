@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-14T07:37:46.422Z" agent="5.0 (Linux; Android 11; SM-A908N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Mobile Safari/537.36" etag="CXr2dO8VqctlCBfhTCAv" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T13:56:22.892Z" agent="5.0 (Linux; Android 11; SM-A908N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Mobile Safari/537.36" etag="SePh_LgIoN61lkLpm2-h" version="15.7.3" type="github">
   <diagram id="Xkew_pkOUpFCAQA28Qru" name="Page-1">
     <mxGraphModel dx="2928" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -323,7 +323,7 @@
           <mxGeometry x="-2470" y="240" width="160" height="280" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-111" value="보증금 이용내역&lt;br&gt;0. 보증금 이용내역 고유번호&lt;br&gt;1. 소셜커머스 고유번호&lt;br&gt;2. 사용자 고유번호&lt;br&gt;3. 이용시간&lt;br&gt;4. 구매한 아이템 고유번호&lt;br&gt;(또는 기부한 캠페인 고유번호)&lt;br&gt;5. 이용결과&lt;br&gt;5-1. 성공&lt;br&gt;5-2. 실패&lt;br&gt;6. 쿠폰, 포인트 사용여부" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2300" y="240" width="200" height="280" as="geometry" />
+          <mxGeometry x="-2295" y="240" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-112" value="BIN DB&lt;br&gt;0. BIN 고유번호&lt;br&gt;1. 설치*점검 담당자&lt;br&gt;2. 설치일자&lt;br&gt;3. 마지막 점검일자&lt;br&gt;4. 현재상태&lt;br&gt;5. 용량상태&lt;br&gt;6. 기기버전&lt;br&gt;7. 펌웨어 버전" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2080" y="240" width="200" height="280" as="geometry" />
