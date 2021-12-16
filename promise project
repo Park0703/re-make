@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T14:39:39.610Z" agent="5.0 (Linux; Android 11; SM-A908N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36" etag="3va5xJoA7uJEYCTehWvd" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T14:45:45.774Z" agent="5.0 (Linux; Android 11; SM-A908N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36" etag="_Rxajn3YNAEqbNUawy_k" version="15.8.7" type="github">
   <diagram id="Xkew_pkOUpFCAQA28Qru" name="Page-1">
     <mxGraphModel dx="2928" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -320,7 +320,7 @@
           <mxGeometry x="-1520" y="1100" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-110" value="서버 - 이용내역(DB)&lt;br&gt;수거함 이용내역&lt;br&gt;0. 수거함 고유번호&lt;br&gt;1. 쓰레기통 고유번호&lt;br&gt;2. 관리자 고유번호&lt;br&gt;3. 이용자 고유번호&lt;br&gt;4. 이용시간&lt;br&gt;5. 투입물&lt;br&gt;6. 인식결과&lt;br&gt;7. 이용결과&lt;br&gt;7-1. N.P&lt;br&gt;7-1-1. 주의&lt;br&gt;7-1-2. 경고&lt;br&gt;7-1-3. 차단&lt;br&gt;7-2.P&lt;br&gt;7-2-1. 보증금" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2470" y="240" width="160" height="280" as="geometry" />
+          <mxGeometry x="-2485" y="240" width="160" height="280" as="geometry" />
         </mxCell>
         <mxCell id="OH_6_dIpCLLqbTa7ZHZ7-111" value="보증금 이용내역&lt;br&gt;0. 보증금 이용내역 고유번호&lt;br&gt;1. 소셜커머스 고유번호&lt;br&gt;2. 사용자 고유번호&lt;br&gt;3. 이용시간&lt;br&gt;4. 구매한 아이템 고유번호&lt;br&gt;(또는 기부한 캠페인 고유번호)&lt;br&gt;5. 이용결과&lt;br&gt;5-1. 성공&lt;br&gt;5-2. 실패&lt;br&gt;6. 쿠폰, 포인트 사용여부" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2300" y="240" width="200" height="280" as="geometry" />
